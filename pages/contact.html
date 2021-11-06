@@ -5,7 +5,35 @@
     </head>
     <header>
         <nav>
-            <h1>Nathan's Contacts</h1>
+            <h1>Contact Me</h1>
         </nav>
     </header>
+    <main>
+        <p>Please feel free to leave you name and email below</p>
+
+        <form>
+            <fieldset>
+                <legend>Your Details</legend>
+                <label>
+                    Name:
+                    <input type="text" value="name">
+                </label>
+                <label>
+                    Email:
+                    <input type="email" value="email">
+                </label>
+            </fieldset>
+        </form>
+        <br />
+        <input type="radio" name="Options" value="Help" checked="checked" /> Help
+        <input type="radio" name="Options" value="Support" /> Support
+        <input type="radio" name="Options" value="Assistance" /> Assistance
+<br />
+<label for="comments">Comments:</label>
+<textarea id="comments" placeholder="Other"></textarea>
+<br /><br />
+
+<input type="submit" name="submit" value="submit" />
+
+    </main>
 </html>
