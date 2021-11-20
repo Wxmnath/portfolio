@@ -32,18 +32,18 @@ h1 {
 
 #Images {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     padding: 20px;
-    background-color: tan;
+    justify-content: center;
+    align-items: center;
 }
 
 .column {
-    max-width: 50%;
-    width: 50%;
-    object-fit: cover;
-    object-position: center;
-    margin-bottom: 15px;
+    justify-self: center;
+    align-self: center;
+    margin: 50px;
+    border-style: groove;
 }
 
 /*About me Section*/
@@ -52,7 +52,7 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:center;
     padding: 20px;
     background-color: #E1E8ED;
     opacity: 0.8;
@@ -71,5 +71,19 @@ h1 {
     font-size: 2rem;
 }
 
-/*Qualities*/
+/*Qualities Hobbies & Interests*/
 
+#qualities_Hobbies
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    padding: 10px;
+}
+
+.Qualities_Hobbies_Header {
+    font-size: 30px;
+
+}
